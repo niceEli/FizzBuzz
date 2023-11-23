@@ -8,7 +8,7 @@ for (let i = 0; i < strings.length; i++) {
     const element = strings[i];
     const felement = Number(element);
     if (felement % 3 == 0 && felement % 5 == 0){
-        strings.splice(i, 1, "Bazz");
+        strings.splice(i, 1, "FizzBuzz");
     } else if (felement % 3 == 0) {
         strings.splice(i, 1, "Fizz");
     } else if(felement % 5 == 0){
