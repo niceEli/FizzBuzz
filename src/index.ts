@@ -20,4 +20,3 @@ for (let i = 0; i  < strings.length; i ++) {
   const element = strings[i];
   console.log((i+1) + ": " + element);
 }
-
